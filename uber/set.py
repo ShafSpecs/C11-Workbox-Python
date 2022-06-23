@@ -45,3 +45,9 @@ s3 = {1, 2, 3, 4, 5, 6, 7, 8}
 # `^=` (caret-equals to) used to find the elements that aren't intersects in a relation and update set_1 with the value.
 # Example.: print(s1.symmetric_difference_update(s2)); also print(s1 ^= s2)
 # // Clears s1 and updates it with the value of both s1 and s2 except the intersects.
+#
+# Disjoint
+#
+# Subset
+#
+# Superset
