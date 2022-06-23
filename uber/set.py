@@ -37,6 +37,11 @@ s3 = {1, 2, 3, 4, 5, 6, 7, 8}
 # `-=` (difference-equals to) used to update a set with values that are in a set that isn't in the other
 # Example.: print(s1.difference_update(s2)); also print(s1 -= s2)
 # // updates s1 with values that are in s2 but not in s2 (More or less, removes the intersections of the sets)
+#
 # `^` (caret Symbol) used to remove the intersects of 2 sets, more or less. So it gets the value of "(s1 - s2)" and
 # "(s2 - s1)" and returns the union of both.
 # Example.: print(s1.symmetric_difference(s2)); also print(s1 ^ s2) // prints all values of s1 and s2 except the intersects
+#
+# `^=` (caret-equals to) used to find the elements that aren't intersects in a relation and update set_1 with the value.
+# Example.: print(s1.symmetric_difference_update(s2)); also print(s1 ^= s2)
+# // Clears s1 and updates it with the value of both s1 and s2 except the intersects.
