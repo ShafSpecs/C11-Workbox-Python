@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Abigail Thanos",
+    "age": "24",
+    "username": "abithanos",
+    "password": "Thanos",
+    "tweets": [
+      {
+        "date": "03 July, 2022 - 11:51",
+        "tweet": "I love Indomie!"
+      }
+    ],
+    "following": 0,
+    "followers": 0,
+    "verified": false
+  },
+  {
+    "name": "Muzzammil Boto",
+    "age": "25",
+    "username": "boyo_d_m",
+    "password": "Boyo",
+    "tweets": [],
+    "following": 0,
+    "followers": 0,
+    "verified": false
+  },
+  {
+    "name": "michael boyo",
+    "age": "25",
+    "username": "mikee",
+    "password": "1234",
+    "tweets": [],
+    "following": 0,
+    "followers": 0,
+    "verified": false
+  }
+]
