@@ -2,8 +2,10 @@ import json
 from pathlib import Path
 from typing import Optional
 
-# current_dir = Path(__file__).parent.absolute()
-# Path.touch(current_dir / 'db.json')
+current_dir = Path(__file__).parent.absolute()
+
+if not Path.exists(current_dir / "db.json"):
+  Path.touch(current_dir / 'db.json')
 
 db = Path(__file__).parent.absolute() / 'db.json'
 
